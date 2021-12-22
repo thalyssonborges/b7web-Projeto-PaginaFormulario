@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: auto;
+}
+.header-top{
+    display: flex;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.form{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    
+}
+.form-espacamento{
+    padding: 10px;
+}
+.form-info{
+    color: white;
+    display: flex;
+    padding: 20px;
+    font-size: 18px;
+    background-color: rgba(33, 76, 112, 0.925);
+}
+.form-espacamento label{
+    font-size: 18px;
+}
+.form-espacamento{
+    padding:20px;
+}
+.form input{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: solid 1px rgb(118, 118, 118);
+    border-radius: 4px;
+}
+.form-nome{
+    width: 100%;
+    padding: 10px;
+}
+.form-bloco{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.form-bloco-cpf,
+.form-bloco-date,
+.form-bloco-sexo{
+    width: 32%;
+}
+.form-bloco-cpf input[type="number"],
+.form-bloco-date input[type="date"] {
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    border: solid 1px rgb(118, 118, 118);
+    border-radius: 4px;
+}
+.form-bloco-sexo #sexo-feminino{
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.form-bloco-estadoCivil,
+.renda-mensal,
+.form-bloco-logradouro{
+    width: 49%;
+}
+.form-bloco-estadoCivil .estadocivil,
+.renda-mensal input[type="number"],
+.form-bloco-logradouro input[type="text"]{
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+    border: solid 1px rgb(118, 118, 118);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.renda-mensal input[type="number"]{
+    padding: 10px;
+    border: solid 1px rgb(118, 118, 118);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.form-bloco-numero{
+    width: 25%;
+}
+
+.form-bloco-numero input[type="number"],
+.form-bloco-complemento input[type="text"]{
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+    border: solid 1px rgb(118, 118, 118);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.form-bloco-estado,
+.form-bloco-cidade{
+    width: 49%;
+}
+.form-bloco-estado select,
+.form-bloco-cidade input[type="text"]{
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+    border: solid 1px rgb(118, 118, 118);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.btn-submit,
+.btn-reset,
+.btn-inspiracao{
+    margin-top: 50px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 200px;
+}
+.btn-submit{
+    margin-left: 270px;
+    background-color: rgb(33, 112, 57);
+}
+.btn-reset{
+    margin-right: 270px;
+    background-color: rgb(33, 80, 112);
+}
+.btn-submit:hover,
+.btn-reset:hover,
+.btn-inspiracao:hover{
+    cursor: pointer;
+}
+.form-bloco-botao-inspiracao{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-inspiracao{
+    margin-top: 50px;
+    width: 130px;
+    color: black;
+    background-color: rgb(245, 231, 39);
+}
+.div-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}

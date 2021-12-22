@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exercicio 11 - Página de Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="Author" content="Thalysson Wilson de Sousa Borges">
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+</head>
+<body>
+    <header class="container header-top">
+        <h2>Cadastro Social</h2>
+    </header>
+
+    <main class="container">
+        <form action="" method="POST" class="form">
+            <label class="form-info">Preencha com suas informações pessoais</label>
+            <div class="form-espacamento">
+                <label for="name">Nome</label><br>
+                <input class="form-nome" type="text" id="name" name="name" autofocus placeholder="Seu nome completo"><br>
+                <div class="form-bloco">
+                    <div class="form-bloco-cpf">
+                        <label for="cpf">CPF</label><br>
+                        <input type="number" id="cpf" name="cpf" placeholder="000.000.000.00">
+                    </div>
+                    <div class="form-bloco-date">
+                        <label for="date">Data de Nacimento</label><br>
+                        <input type="date" id="date" name="date" placeholder="__/__/____">
+                    </div>
+                    <div class="form-bloco-sexo">
+                        <label for="sexo">Sexo</label><br>
+                        <input type="radio" id="sexo-masculino" name="masculino">
+                        <label for="sexo-masculino">Masculino</label>
+                        <input type="radio" id="sexo-feminino" name="masculino">
+                        <label for="sexo-feminino">Feminino</label>
+                    </div>
+                </div>
+                <div class="form-bloco">
+                    <div class="form-bloco-estadoCivil">
+                        <label for="estado-civil">Estado civil</label>
+                        <select class="estadocivil" name="estado-civil">
+                            <option value="selecione">Selecione</option>
+                            <option value="solteiro">Solteiro(a)</option>
+                            <option value="casado">Casado(a)</option>
+                            <option value="divorciado">Divorciado(a)</option>
+                            <option value="viuvo">Viuvo(a)</option>
+                            <option value="uniao-estavel">União Estável</option>
+                        </select>
+                    </div>
+                    <div class="renda-mensal">
+                        <label for="renda-mensal">Renda Mensal</label><br>
+                        <input type="number" id="renda-mensal" name="renda-mensal" placeholder="0.00">
+                    </div>
+                </div>
+                <div class="form-bloco">
+                    <div class="form-bloco-endereco">
+                        <label for="endereco">Endereço</label>
+                    </div>
+                </div>
+                <div class="form-bloco">
+                    <div class="form-bloco-logradouro">
+                        <label for="logradouro">Logradouro</label><br>
+                        <input type="text" id="logradouro" name="logradouro" placeholder="Logradouro">
+                    </div>
+                    <div class="form-bloco-numero">
+                        <label for="numero">Número</label><br>
+                        <input type="number" id="numero" name="numero" placeholder="N°">
+                    </div>
+                    <div class="form-bloco-complemento">
+                        <label for="complemento" id="complemento" name="complemento">Complemento</label><br>
+                        <input type="text" id="complemento" name="complemento" placeholder="Complemento">                        
+                    </div>
+                </div>
+                <div class="form-bloco">
+                    <div class="form-bloco-estado">
+                        <label for="estado">Estado</label><br>
+                        <select class="estado" name="estado">
+                            <option value="ac">Acre</option>
+                            <option value="al">Alagoas</option>
+                            <option value="ap">Amapá</option>
+                            <option value="am">Amazonas</option>
+                            <option value="ba">Bahia</option>
+                            <option value="ce">Ceará</option>
+                            <option value="df">Distrito Federal</option>
+                            <option value="es">Espírito Santo</option>
+                            <option value="go">Goiás</option>
+                            <option value="ma">Maranhão</option>
+                            <option value="mt">Mato Grosso</option>
+                            <option value="ms">Mato Grosso do Sul</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="pa">Pará</option>
+                            <option value="pb">Paraíba</option>
+                            <option value="pr">Paraná</option>
+                            <option value="pe">Pernambuco</option>
+                            <option value="pi">Piauí</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="rn">Rio Grande do Norte</option>
+                            <option value="rs">Rio Grande do Sul</option>
+                            <option value="ro">Rondônia</option>
+                            <option value="rr">Roraima</option>
+                            <option value="sc">Santa Catarina</option>
+                            <option value="sp">São Paulo</option>
+                            <option value="se">Sergipe</option>
+                            <option value="to">Tocantins</option>
+                        </select>
+                    </div>
+                    <div class="form-bloco-cidade">
+                        <label for="cidade">Cidade</label><br>
+                        <input type="text" id="cidade" name="cidade" placeholder="Cidade">
+                    </div>
+                </div>
+                <div class="form-bloco form-bloco-botao">
+                    <div class="botao-submit">
+                        <button class="btn-submit" type="submit" name="botao-submit">Cadastrar</button>
+                    </div>
+                    <div class="botao-reset">
+                        <button class="btn-reset" type="reset" name="botao-reset">Resetar</button>
+                    </div>
+                </div>
+                <div class="form-bloco form-bloco-botao-inspiracao">
+                    <div class="botao-inspiracao">
+                        <button class="btn-inspiracao" type="submit" name="botao-inspiracao"><a href="inspiracao.html">Inspiração</a></button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
